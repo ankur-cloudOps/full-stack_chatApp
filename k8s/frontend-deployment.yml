@@ -17,7 +17,8 @@ spec:
     spec:
       containers:
       - name: chatapp-frontend
-        image: trainwithshubham/chatapp-frontend
+        image: 559784498824.dkr.ecr.ap-south-1.amazonaws.com/chat-frontend:v1
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
         env:
